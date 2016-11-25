@@ -4,7 +4,7 @@ end
 
 # puts first_anagram?("gizmo", "sally")    #=> false
 # puts first_anagram?("elvis", "lives")    #=> true
-#time complexity => O(n!)
+#time complexity => O(n!)n
 
 def second_anagram?(string1, string2)
   s1_letters = string1.chars
